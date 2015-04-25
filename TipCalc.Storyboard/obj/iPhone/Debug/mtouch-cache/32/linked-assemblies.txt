@@ -1,0 +1,14 @@
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/System.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.MvvmCross.Binding.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.MvvmCross.Touch.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Xamarin.iOS.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.MvvmCross.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/System.Core.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/TestingMvxSB.exe
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.CrossCore.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Testing.Core.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.MvvmCross.Localization.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.MvvmCross.Binding.Touch.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Mono.Dynamic.Interpreter.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/mscorlib.dll
+/Users/nicruo/Projects/TestingMvxSB/TestingMvxSB/obj/iPhone/Debug/mtouch-cache/32/Link/Cirrious.CrossCore.Touch.dll

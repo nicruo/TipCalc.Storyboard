@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733.0"/>
+    </dependencies>
+    <scenes>
+        <!--class Prefix:identifier View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TipView" sceneMemberID="viewController" storyboardIdentifier="TipView">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SubTotal" lineBreakMode="tailTruncation" minimumFontSize="10" id="9" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="48" width="280" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="32" firstItem="9" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generosity" lineBreakMode="tailTruncation" minimumFontSize="10" id="10" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="111" width="280" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="37" firstItem="10" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tip" lineBreakMode="tailTruncation" minimumFontSize="10" id="11" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="181" width="280" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="44" firstItem="11" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="12" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="20" y="236" width="280" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="48" firstItem="12" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.0" minValue="0.0" maxValue="100" id="13" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="18" y="140" width="284" height="32"/>
+                                <constraints>
+                                    <constraint id="40" firstItem="13" firstAttribute="height" constant="31"/>
+                                </constraints>
+                            </slider>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" borderStyle="roundedRect" minimumFontSize="17" id="14" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="77" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="33" firstItem="14" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="99" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="21" y="524" width="278" height="44"/>
+                                <state key="normal" title="About">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="103" firstItem="99" firstAttribute="height" constant="44"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="9" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="28" id="22"/>
+                            <constraint firstItem="9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="27"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="9" secondAttribute="trailing" constant="20" id="28"/>
+                            <constraint firstItem="14" firstAttribute="top" secondItem="9" secondAttribute="bottom" constant="8" id="29"/>
+                            <constraint firstItem="14" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="30"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="14" secondAttribute="trailing" constant="20" id="31"/>
+                            <constraint firstItem="10" firstAttribute="top" secondItem="14" secondAttribute="bottom" constant="4" id="34"/>
+                            <constraint firstItem="10" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="35"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" id="36"/>
+                            <constraint firstItem="13" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="38"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="13" secondAttribute="trailing" constant="20" id="39"/>
+                            <constraint firstItem="13" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="8" id="41"/>
+                            <constraint firstItem="11" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="42"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="11" secondAttribute="trailing" constant="20" id="43"/>
+                            <constraint firstItem="11" firstAttribute="top" secondItem="13" secondAttribute="bottom" constant="10" id="45"/>
+                            <constraint firstItem="12" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="46"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="12" secondAttribute="trailing" constant="20" id="47"/>
+                            <constraint firstItem="12" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="34" id="49"/>
+                            <constraint firstItem="99" firstAttribute="bottom" secondItem="4" secondAttribute="top" constant="0.0" id="100"/>
+                            <constraint firstItem="99" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="21" id="101"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="trailing" secondItem="99" secondAttribute="trailing" constant="21" id="102"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TipLabel" destination="12" id="name-outlet-12"/>
+                        <outlet property="SubTotalTextField" destination="14" id="name-outlet-14"/>
+                        <outlet property="GenerositySlider" destination="13" id="name-outlet-13"/>
+                        <outlet property="AboutButton" destination="99" id="name-outlet-99"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="71">
+            <objects>
+                <viewController id="72" sceneMemberID="viewController" customClass="AboutView" storyboardIdentifier="AboutView">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="69"/>
+                        <viewControllerLayoutGuide type="bottom" id="70"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="73">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="88" translatesAutoresizingMaskIntoConstraints="NO" text="A sample app using mvvmcross and storyboard. Hope you like it :)" textAlignment="natural">
+                                <rect key="frame" x="0.0" y="10" width="320" height="548"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="69" firstAttribute="bottom" secondItem="88" secondAttribute="top" constant="10" id="89"/>
+                            <constraint firstItem="88" firstAttribute="leading" secondItem="73" secondAttribute="leading" constant="0.0" id="90"/>
+                            <constraint firstItem="73" firstAttribute="trailing" secondItem="88" secondAttribute="trailing" constant="0.0" id="91"/>
+                            <constraint firstItem="70" firstAttribute="top" secondItem="88" secondAttribute="bottom" constant="10" id="92"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="517" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
